@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Reports.ExtentList"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Chetan/eclipse-workspace/.metadata/QA-Naga-Vodacom">
+        <classes>
+            <class name="Vodacom_Journeys.TestCase_1"/>
+            <class name="Vodacom_Journeys.TestCase_2"/>
+        </classes>
+    </test>
+</suite>
