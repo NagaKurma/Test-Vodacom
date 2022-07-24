@@ -1,17 +1,16 @@
-package Vodacom_Journeys;
+package Journeys;
 
 import BaseFramework.BaseClass;
-import Vodacom_Page_Objects.H_Page;
-import Vodacom_Page_Objects.Order_Summary_Page;
-import Vodacom_Page_Objects.Product_page;
+import Page_Objects.H_Page;
+import Page_Objects.Order_Summary_Page;
+import Page_Objects.Product_page;
 import org.testng.annotations.Test;
 
-
-public class TestCase_1 extends BaseClass {
+public class TestCase_2 extends BaseClass {
     @Test
-    public void TestScenario1() throws InterruptedException {
+    public void TestScenario2() throws InterruptedException {
         H_Page.ClickAcceptCookies();
-        H_Page.ClickBuyButton("Galaxy A73");
+        H_Page.ClickBuyButton(" Galaxy A53 + Galaxy Buds Live ");
         Product_page.ValidateCorrectProductLoaded();
         Product_page.ValidateDealPrice();
         Product_page.ValidateContract_Duration();
@@ -22,5 +21,4 @@ public class TestCase_1 extends BaseClass {
         Order_Summary_Page.Validate_Contract_Cover_is_added();
 
     }
-
 }

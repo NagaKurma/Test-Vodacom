@@ -1,4 +1,4 @@
-package Vodacom_Page_Objects;
+package Page_Objects;
 
 import BaseFramework.BaseClass;
 import com.aventstack.extentreports.Status;

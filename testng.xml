@@ -6,8 +6,8 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/Chetan/eclipse-workspace/.metadata/QA-Naga-Vodacom">
         <classes>
-            <class name="Vodacom_Journeys.TestCase_1"/>
-            <class name="Vodacom_Journeys.TestCase_2"/>
+            <class name="Journeys.TestCase_1"/>
+            <class name="Journeys.TestCase_2"/>
         </classes>
     </test>
 </suite>
